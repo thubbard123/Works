@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CatapultDestination 
-	Version="1" 
-	Comment="This is my publish destination" 
-	Host="ftp.myftpserver.com" 
-	User="MyAccountId" 
-	Password="" 
-	Directory="public_html" 
-	Port="" 
-	ViewUrl="http://www.madcapsoftware.com/"	
-	Type="ftp">
-</CatapultDestination>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host="ftp.myftpserver.com"
+  User="MyAccountId"
+  Password=""
+  Directory="C:\Users\thubbard\Desktop\TEST\yolo"
+  Port=""
+  ViewUrl="http://www.madcapsoftware.com/"
+  Type="scm"
+  ProviderType="Git"
+  Database="C:\Users\thubbard\Desktop\TEST\yolo\.git"
+  DatabaseRoot="C:\Users\thubbard\Desktop\TEST\yolo"
+  PushToRemote="true"
+  RemoteRepository="origin"></CatapultDestination>
